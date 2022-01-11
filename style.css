@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1000px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -241,7 +241,7 @@ h2::before {
   padding: 5px 10px;
   position: absolute;
   top: -10px;
-  right: -25px;
+  right: 20px;
 }
 
 /* Resolving conflicts */
@@ -286,4 +286,17 @@ nav {
   content: "";
   clear: both;
   display: block;
+}
+.main {
+  width: 600px;
+  float: left;
+}
+.related-post {
+  margin-left: 10px;
+  float: left;
+  width: 390px;
+}
+footer {
+  clear: both;
+  text-align: center;
 }
